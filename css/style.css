@@ -1,6 +1,9 @@
 body {
-  font-family: "Comic Sans MS", Roboto, Verdana;
-  font-size: 1.5em; }
+  font-family: Garamond, Verdana, "Comic Sans MS";
+  font-size: 1.5em;
+  background: url("http://oldkinderhooksystems.com/_content/background-body.png") no-repeat center center fixed; }
+  body h1 {
+    text-align: center; }
 
 #team-members {
   clear: both;
@@ -18,14 +21,17 @@ body {
       width: 100%;
       height: auto;
       border-radius: 100%;
-      -webkit-filter: grayscale(70%);
-      -webkit-transition: all 0.2s; }
-    #team-members .member img:hover {
-      -webkit-filter: none; }
+      border-width: 15px;
+      border-color: transparent;
+      -webkit-box-sizing: border-box;
+      border-style: solid;
+      -webkit-filter: grayscale(75%);
+      -webkit-transition: all 0.2s ease; }
+      #team-members .member img:hover {
+        -webkit-filter: none;
+        border-width: 0;
+        border-color: transparent; }
     #team-members .member div.name {
       text-align: center; }
-
-body h1 {
-  color: #FF0000; }
 
 /*# sourceMappingURL=style.css.map */
